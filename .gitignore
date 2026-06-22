@@ -77,10 +77,42 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.nbconvert.ipynb
+/.jupyter/
+/.ipython/
 
 # IPython
 profile_default/
 ipython_config.py
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Editor and IDE local files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
